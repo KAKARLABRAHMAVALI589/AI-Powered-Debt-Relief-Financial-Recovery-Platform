@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Space Grotesk", sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+}
+
+/* Deep Space Dark Mode Styles */
+.dark {
+  background-color: #020617 !important;
+  color: #f1f5f9 !important;
+
+  /* Card backgrounds and panel containers */
+  .bg-white,
+  .bg-slate-50,
+  .bg-slate-50\/40,
+  .bg-slate-50\/50,
+  .bg-\[\#f8fafc\],
+  .bg-linear-to-b,
+  .bg-linear-to-r {
+    background-color: #0b1329 !important;
+  }
+
+  /* Text colors */
+  .text-slate-900,
+  .text-slate-850,
+  .text-slate-800,
+  .text-slate-700,
+  .text-slate-950,
+  .text-rose-950,
+  .text-blue-950,
+  .text-emerald-950 {
+    color: #f8fafc !important;
+  }
+
+  .text-slate-600,
+  .text-slate-500,
+  .text-slate-400 {
+    color: #94a3b8 !important;
+  }
+
+  /* Form & inputs style overrides */
+  input, select, textarea {
+    background-color: #070c1a !important;
+    color: #f8fafc !important;
+    border-color: #1e293b !important;
+  }
+
+  input::placeholder, textarea::placeholder {
+    color: #475569 !important;
+  }
+
+  /* Borders overrides */
+  .border,
+  .border-b,
+  .border-t,
+  .border-l,
+  .border-r,
+  .border-slate-100,
+  .border-slate-200,
+  .border-slate-300,
+  .border-slate-200\/80,
+  .border-slate-200\/60,
+  .divide-y > * {
+    border-color: #1e293b !important;
+  }
+
+  /* Subtle card borders */
+  .border-slate-100 {
+    border-color: #1a253c !important;
+  }
+
+  /* Hovers */
+  .hover\:bg-slate-50:hover,
+  .hover\:bg-slate-50\/50:hover,
+  .hover\:bg-slate-100:hover,
+  .hover\:bg-slate-500\/10:hover,
+  tr:hover {
+    background-color: #131e3a !important;
+  }
+
+  /* Modals */
+  .bg-slate-950\/60 {
+    background-color: rgba(2, 6, 23, 0.85) !important;
+    backdrop-filter: blur(4px) !important;
+  }
+
+  /* Inner elements */
+  .bg-slate-100,
+  .bg-slate-100\/80 {
+    background-color: #1e293b !important;
+    color: #cbd5e1 !important;
+  }
+
+  /* Metric Card Overrides to pop nicely */
+  .bg-blue-50\/50, .bg-blue-50 {
+    background-color: #0d1e3d !important;
+    border-color: #1d355e !important;
+  }
+  .bg-emerald-50\/50, .bg-emerald-50 {
+    background-color: #08211b !important;
+    border-color: #114235 !important;
+  }
+  .bg-amber-50\/50, .bg-amber-50 {
+    background-color: #241d0c !important;
+    border-color: #4c3c17 !important;
+  }
+  .bg-rose-50\/50, .bg-rose-50 {
+    background-color: #2a1215 !important;
+    border-color: #581c22 !important;
+  }
+
+  /* Icons */
+  .text-blue-600, .text-blue-700 {
+    color: #60a5fa !important;
+  }
+  .text-emerald-600, .text-emerald-700 {
+    color: #34d399 !important;
+  }
+  .text-amber-600, .text-amber-700 {
+    color: #fbbf24 !important;
+  }
+  .text-rose-600, .text-rose-700 {
+    color: #f87171 !important;
+  }
+
+  /* Badges */
+  .bg-blue-100 {
+    background-color: #1d4ed8 !important;
+    color: #eff6ff !important;
+  }
+  .bg-emerald-100 {
+    background-color: #047857 !important;
+    color: #ecfdf5 !important;
+  }
+  .bg-amber-100 {
+    background-color: #b45309 !important;
+    color: #fef3c7 !important;
+  }
+  .bg-rose-100 {
+    background-color: #b91c1c !important;
+    color: #fef2f2 !important;
+  }
+  
+  /* Additional dark exceptions */
+  .bg-slate-50\/30 {
+    background-color: #0b1329 !important;
+  }
+}
