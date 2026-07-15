@@ -142,7 +142,7 @@ Some features that can be added in future versions include:
 
 ## Author
 
-**Charishma Mothukuri**
+**KAKARLA BRAHMAVALI**
 
 B.Tech Computer Science and Engineering
 
@@ -150,6 +150,5 @@ Seshadri Rao Gudlavalleru Engineering College
 
 Graduation Year: 2027
 
----
 
 This project was developed as an academic project to explore the use of Artificial Intelligence in financial assistance and debt management.
