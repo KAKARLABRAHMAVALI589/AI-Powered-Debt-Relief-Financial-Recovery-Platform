@@ -1,0 +1,28 @@
+{
+  "users": [
+    {
+      "id": "5e60c2aa-2fa6-4987-87fc-6b0ebe5060b3",
+      "username": "charishma",
+      "email": "charishmamothukuri@gmail.com",
+      "passwordHash": "abf61b12b0266e8e76b502ff0cdbc55a43bedea98531066d6f7852b1c27d262f",
+      "monthlyIncome": 20000,
+      "monthlyExpenses": 18000,
+      "createdAt": "2026-07-03T14:48:11.918Z"
+    }
+  ],
+  "loans": [
+    {
+      "lenderName": "HDFC",
+      "loanType": "Personal Loan",
+      "outstandingAmount": 150000,
+      "interestRate": 12,
+      "monthlyEMI": 5000,
+      "overdueDuration": 1,
+      "status": "Overdue",
+      "id": "cd9b5282-5784-4bef-a4fa-7a93cbb37466",
+      "userId": "5e60c2aa-2fa6-4987-87fc-6b0ebe5060b3",
+      "createdAt": "2026-07-04T13:37:12.384Z"
+    }
+  ],
+  "negotiations": []
+}

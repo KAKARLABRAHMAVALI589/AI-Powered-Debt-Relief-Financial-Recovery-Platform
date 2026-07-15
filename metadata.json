@@ -1,0 +1,6 @@
+{
+  "name": "Debt Relief & Financial Recovery Platform",
+  "description": "An intelligent AI-powered platform for borrowers to manage loans, calculate financial stress, predict settlement recommendations, and generate professional negotiation letters.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
